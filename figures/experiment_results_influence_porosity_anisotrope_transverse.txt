@@ -1,0 +1,4 @@
+Porosity Error YieldStrength Error YoungModulus Error
+0.49     0.01  5             3     1            0.2
+0.66     0.007 2             1     0.2          0.1
+

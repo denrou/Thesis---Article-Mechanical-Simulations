@@ -1,0 +1,3 @@
+Porosity ErrorPorosity Stress ErrorStress E    ErrorE
+0.45     0.01          77     15          14.3 1
+0.69     0             49     5           11   1
