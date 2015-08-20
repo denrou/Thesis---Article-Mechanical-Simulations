@@ -131,7 +131,7 @@
 \address[label3]{ESRF – The European Synchrotron, CS 40220,
 38043 Grenoble Cedex 9, France}
 \begin{abstract}
-Porous ceramic samples were processed either by freeze-casting or by introducing pore formers. They were partially sintered to obtain a total porosity in between 45 and 65\%. Samples were imaged by X-ray nanotomography with 75 nm resolution. The images, approximately 90 $\mu$m in size, were merged with randomly packed particles to obtain representative numerical microstructures with appropriate fracture properties. The numerical samples were crushed uniaxially using discrete element simulations. This revealed anisotropic behavior for freeze-cast samples. Simulated strength values were compared to experimental data, with some consideration on volume.  
+Porous ceramic samples were processed either by freeze-casting or by introducing pore formers. They were partially sintered to obtain a total porosity in between 45 and 65\%. Samples were imaged by X-ray nanotomography with 75 nm resolution. The images, approximately 90$^3$ $\mu$m$^3$ in size, were merged with randomly packed particles to obtain representative numerical microstructures with appropriate fracture properties. The numerical samples were crushed uniaxially using discrete element simulations. This revealed anisotropic behavior for freeze-cast samples. Simulated strength values were compared to experimental data, with some consideration on volume.  
 \end{abstract}
 
 \begin{keyword}
@@ -213,7 +213,7 @@ Freeze-cast samples exhibit anisotropic microstructures (Fig.~\ref{fig1}), which
 Fracture mechanisms can be investigated at the particle length scale with discrete simulations. Fig.~\ref{fig4} shows the location of fractured bonds together with large pores just after the stress maximum. The isotropic sample (Fig.~\ref{fig4}a) exhibits a rather heterogeneous distribution of broken bonds, with heavily damaged zones, surrounded by nearly intact ones. However, we observed that the initial damage spreads as cracks (indicated by dotted ellipses) that were more evenly distributed. Anisotropic samples tested parallel to the freezing direction (Fig.~\ref{fig4}b) show damage homogeneously located in the walls. In these samples, damage has expanded in the whole width of the ceramic wall. Conversely, Fig.~\ref{fig4}c indicates that a very small amount of damage is sufficient to crush the sample when the ceramic walls are oriented normal to the loading direction. Note that this sample ($\epsilon\approx$ 0.69) is associated with an extremely low strength (1.4 MPa), as it should.
 
 
-Fig.~\ref{fig3} also includes experimental data on macroscopic rectangular samples (12mm $\times$ 12mm $\times$ 16mm) which were crushed under similar conditions \cite{Lichtner15b}. It is clear that simulation results lead to an overestimation both of strength and stiffness. We have not attempted to fit any material parameter in the model (Young's moduli and surface energies of LSM and YSZ are directly taken from literature, see table~\ref{table1}). Previous comparisons with experimental data with the same model lead to very reasonable agreement for porous ceramics \cite{Jauffres12b,Liu11}. Here we believe that, although the simulated microstructure is very close to the real one, the simulated volume is an issue. Classical Weibull statistics tells us that strength  depends on the length of the major flaw and that the probability of failure increases with the size of the specimen. According to Weibull statistics, the probability of failure in a sample of volume $V_1$ is equal to that in a sample of volume $V_2$ if stresses $\sigma_1$ and $\sigma_2$ are related by:
+Fig.~\ref{fig3} also includes experimental data on macroscopic rectangular samples (12mm $\times$ 12mm $\times$ 16mm) which were crushed under similar conditions \cite{Lichtner15b}. It is clear that simulation results lead to an overestimation both of strength and stiffness. We have not attempted to fit any material parameter in the model (Young's moduli and surface energies of LSM and YSZ are directly taken from literature, see table~\ref{table1}). Previous comparisons with experimental data for partially sintered ceramics (no templated macroporosity) lead to very good agreement for elasticity \cite{Jauffres12MSMSE}. As for strength, an overestimation by a factor of 2 was attributed to the absence in the ideal numerical microstructure of some kind of initial flaw for fracture \cite{Jauffres13}. In the present case, the simulated microstructure is very close to the real one but the simulated volume is an issue. Classical Weibull statistics tells us that strength depends on the length of the major flaw and that the probability of failure increases with the size of the specimen. According to Weibull statistics, the probability of failure in a sample of volume $V_1$ is equal to that in a sample of volume $V_2$ if stresses $\sigma_1$ and $\sigma_2$ are related by:
 \begin{equation}
 V_1 \sigma_1^m=V_2 \sigma_2^m \label{eqn1}
 \end{equation}
@@ -309,6 +309,10 @@ R.~Danzer, T.~Lube, P.~Supancic, R.~Damani, Adv. Eng.  Mater. 10 (2008) 275.
 O.~Keles, R.~E. Garcia, K.~J. Bowman, Acta Mater. 61 (2013) 2853.
 \bibitem{Elices02}
 M.~Elices, G.V.~Guinea, J.~Gómez, J.~Planas, Engineering Fracture Mechanics 69 (2002) 137.
+\bibitem{Jauffres12MSMSE}
+D.~Jauffrès, C.~L. Martin, A.~Lichtner, R.~K. Bordia, Modelling and Simulation in Materials Science and Engineering, 20 (2012)
+\bibitem{Jauffres13}
+D.~Jauffrès, X.~Liu, C.~L. Martin, Engineering Fracture Mechanics, 103 (2013) 132.
 \end{thebibliography}
 
 
